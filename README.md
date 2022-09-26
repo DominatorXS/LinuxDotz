@@ -15,3 +15,6 @@ light (for brightness, xbacklight did not work for me)
 
 FiraCode Nerd Font
 
+Not Important, recommended :
+
+You can get alacritty-themes from AUR. This will help in configuring themes.
