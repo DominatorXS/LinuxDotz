@@ -26,3 +26,4 @@ bspc config focused_border_color "#B093D8"
 feh --bg-scale /home/silver/Wallpapers/cat.jpg 
 picom -b -experimental-backends &
 bash ~/launch.sh &
+xsetroot -cursor_name left_ptr
