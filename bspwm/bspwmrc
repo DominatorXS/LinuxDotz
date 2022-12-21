@@ -20,8 +20,8 @@ bspc rule -a Screenkey manage=off
 bspc config focus_follows_pointer true
 
 
-bspc config normal_border_color "#090B14"
-bspc config focused_border_color "#B093D8"
+bspc config normal_border_color "#1a1b26"
+bspc config focused_border_color "#7aa2f7"
 
 feh --bg-scale /home/silver/Wallpapers/cat.jpg 
 picom -b -experimental-backends &
