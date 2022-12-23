@@ -5,7 +5,7 @@ Requiremets:
 
 feh (for wallpaper)
 
-polybar (bar)
+polybar (bar **POLYBAR HAS BEEN SET ACCORDING TO MY CONFIG OF GAPS (in bspwmrc), MAKE SURE YOU SET SAME GAPS BEFORE USING!**)
 
 rofi (i am using adi1090x's rofi config, it should work out of the box)
 
