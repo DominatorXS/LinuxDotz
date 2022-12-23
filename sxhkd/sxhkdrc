@@ -4,7 +4,7 @@
 
 # terminal emulator
 super + Return
-	xfce4-terminal
+	alacritty
 
 # program launcher
 super + d
@@ -14,9 +14,6 @@ super + d
 super + Escape
 	pkill -USR1 -x sxhkd
 
-#
-# bspwm hotkeys
-#
 
 # quit/restart bspwm
 super + shift + r
@@ -141,4 +138,3 @@ XF86AudioLowerVolume
 
 XF86AudioMute
 	pactl set-sink-mute @DEFAULT_SINK@ toggle
-
