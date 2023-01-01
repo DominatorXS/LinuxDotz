@@ -7,7 +7,7 @@ feh (for wallpaper)
 
 polybar (bar **POLYBAR HAS BEEN SET ACCORDING TO MY CONFIG OF GAPS (in bspwmrc), MAKE SURE YOU SET SAME GAPS BEFORE USING!**)
 
-rofi 
+rofi (i am using adi1090x's configs. they should work out of the box : https://github.com/adi1090x/rofi)
 
 
 *THIS IS WHAT THE SETUP LOOKS LIKE*
