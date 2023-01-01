@@ -10,5 +10,5 @@ polybar (bar **POLYBAR HAS BEEN SET ACCORDING TO MY CONFIG OF GAPS (in bspwmrc),
 rofi (i am using adi1090x's rofi config, it should work out of the box)
 
 *THIS IS WHAT THE SETUP LOOKS LIKE*
-![alt text](https://github.com/DominatorXS/LinuxDotz/blob/main/setup.png)
+![alt text](https://github.com/DominatorXS/LinuxDotz/blob/main/setup1.png)
 
