@@ -2,36 +2,32 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
-bspc monitor -d I II III IV V VI VII VIII IX X
+bspc monitor -d I II III IV V VI
 
-bspc config border_width         2
-bspc config window_gap          14
+bspc config border_width        0
+bspc config window_gap          12
 
 bspc config split_ratio          0.52
 bspc config borderless_monocle   true
-bspc config gapless_monocle      true
+bspc config gapless_monocle      false
 
 
 
-bspc rule -a Gimp desktop='^8' state=floating follow=on
-bspc rule -a Chromium desktop='^2'
+bspc rule -a Gimp desktop='^6' state=floating follow=on
 bspc rule -a Firefox desktop='^2'
 bspc rule -a firefox desktop='^2'
 bspc rule -a Zathura desktop='^3'
 bspc rule -a mplayer2 state=floating
-bspc rule -a Kupfer.py focus=on
-bspc rule -a Screenkey manage=off
 
 bspc config focus_follows_pointer true
 
 
-bspc config normal_border_color "#1a1b26"
-bspc config focused_border_color "#f7768e"
+bspc config normal_border_color "#272e33"
+bspc config focused_border_color "#7fbbb3"
+#bspc config focused_border_color "#c0caf5"
+bspc config active_border_color "#1a1b26"
 
-feh --bg-scale /home/silver/Wallpapers/City36.jpg &
-#feh --bg-scale /home/silver/Wallpapers/Mac.jpg &
-picom -b &
+feh --bg-scale /home/silver/Wallpapers/car2.png &
+picom -b --config ~/.config/picom/config.ini &
 bash ~/.config/polybar/launch.sh &
 xsetroot -cursor_name left_ptr
-#~/.config/bspwm/bin/bspborder &
-pkill borders ; borders &
