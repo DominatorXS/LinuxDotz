@@ -8,7 +8,7 @@ super + Return
 
 # program launcher
 super + d
-	bash /home/silver/.config/rofi/launchers/type-4/launcher.sh
+	bash ~/.config/rofi/launchers/type-4/launcher.sh
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -20,7 +20,7 @@ super + shift + r
 	bspc wm -r
 
 super + shift + e
-	bash /home/silver/.config/rofi/powermenu/type-1/powermenu.sh
+	bash ~/.config/rofi/powermenu/type-1/powermenu.sh
 
 # Kill window
 super + shift + q
